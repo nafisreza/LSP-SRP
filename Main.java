@@ -9,6 +9,6 @@ public class Main {
         shapes.add(ShapeFactory.createShape("circle", 2, 2, 3));
         shapes.add(ShapeFactory.createShape("square", 3, 3, 4));
 
-
+        OrderPrinter.printShapesInOrder(shapes);
     }
 }
